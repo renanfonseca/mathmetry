@@ -1,0 +1,17 @@
+{
+  "name": "geometric",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/geometric.js",
+  "scripts": {
+    "build": "babel src -o build/geometric.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Renan Fonseca",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.22.9",
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9"
+  }
+}
